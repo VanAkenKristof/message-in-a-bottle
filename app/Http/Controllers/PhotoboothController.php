@@ -10,6 +10,8 @@ class PhotoboothController extends Controller
     public function step1()
     {
 
+
+        dd("done");
     }
 
     public function step2()
@@ -29,13 +31,23 @@ class PhotoboothController extends Controller
 
     public function uploadPhoto()
     {
-        $lastFileName = collect(scandir(storage_path('photobooth')))->sort()->last();
-        $lastFileName = explode('.', $lastFileName)[0];
+        $filename = $this->getNextNumberFilename();
+        $localFileName = collect(scandir(storage_path('photobooth-local')))->sort()->last();
 
-        $filename = $lastFileName++;
+        $path = storage_path('photobooth-local/' . $localFileName);
+        $image = base64_encode(file_get_contents($path));
+        $image = str_replace('data:image/png;base64,', '', $image);
+        $image = str_replace(' ', '+', $image);
 
-
+        \File::put(public_path('storage/photobooth/' . $filename . '.jpg'), base64_decode($image));
 
         return response()->json(['status' => 'success']);
+    }
+
+    private function getNextNumberFilename()
+    {
+        $lastFileName = collect(scandir(public_path('storage/photobooth')))->sort()->last();
+        $lastFileName = (int)explode('.', $lastFileName)[0];
+        return str_pad($lastFileName+1, 3, '0', STR_PAD_LEFT);
     }
 }

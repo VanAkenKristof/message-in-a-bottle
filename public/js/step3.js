@@ -9,18 +9,6 @@ $('document').ready(function() {
     });
 });
 
-// function takeSnapshot() {
-//     Webcam.snap( function(data_uri) {
-//         uploadPhoto(data_uri);
-//     } );
-// }
-
-// function fillPicture(data, data2) {
-//     console.log('done');
-//     document.getElementById('thingy').innerHTML = '<img src="'+data+'"/>';
-//     document.getElementById('image').innerHTML = '<img src="'+data2+'"/>';
-// }
-
 function savePhoto() {
     $.ajaxSetup({ cache: false });
     $("#capture").click(function(){
