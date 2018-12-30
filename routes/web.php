@@ -1,5 +1,11 @@
 <?php
 
+Route::get('/', function () {
+    return "mlkj";
+});
+
+
+
 Route::get('/step1', 'PhotoboothController@step1');
 Route::get('/step2', 'PhotoboothController@step2');
 Route::get('/step3', 'PhotoboothController@step3');
