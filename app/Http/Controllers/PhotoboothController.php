@@ -27,8 +27,15 @@ class PhotoboothController extends Controller
 
     }
 
-    public function uploadPhoto(Request $request)
+    public function uploadPhoto()
     {
-        return response()->json(['status' => 'success', 'image' => $request->image]);
+        $lastFileName = collect(scandir(storage_path('photobooth')))->sort()->last();
+        $lastFileName = explode('.', $lastFileName)[0];
+
+        $filename = $lastFileName++;
+
+
+
+        return response()->json(['status' => 'success']);
     }
 }

@@ -46,7 +46,7 @@ function uploadPhoto(data_uri) {
 
         },
         success: function (data) {
-            console.log("1: " + data['number'].length);
+            console.log(data['number']);
         }
     });
 }

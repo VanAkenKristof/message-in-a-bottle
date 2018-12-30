@@ -1,7 +1,10 @@
 <?php
 
 Route::get('/', function () {
-    return "mlkj";
+    $lastFileName = collect(scandir(storage_path('photobooth')))->sort()->last();
+    $lastFileName = explode('.', $lastFileName)[0];
+
+
 });
 
 
