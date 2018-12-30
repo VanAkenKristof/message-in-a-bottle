@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Photo;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
@@ -9,9 +10,7 @@ class PhotoboothController extends Controller
 {
     public function step1()
     {
-
-
-        dd("done");
+        return "Step 1";
     }
 
     public function step2()
@@ -26,7 +25,7 @@ class PhotoboothController extends Controller
 
     public function step4()
     {
-
+        return "done";
     }
 
     public function uploadPhoto()
@@ -40,6 +39,10 @@ class PhotoboothController extends Controller
         $image = str_replace(' ', '+', $image);
 
         \File::put(public_path('storage/photobooth/' . $filename . '.jpg'), base64_decode($image));
+
+        $photo = new Photo();
+        $photo->name = $filename;
+        $photo->save();
 
         return response()->json(['status' => 'success']);
     }

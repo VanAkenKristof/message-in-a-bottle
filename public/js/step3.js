@@ -20,7 +20,7 @@ function savePhoto() {
     });
 }
 
-function uploadPhoto(data_uri) {
+function uploadPhoto() {
     $.ajax({
         type: 'POST',
         url: '/upload-photo',
@@ -34,7 +34,7 @@ function uploadPhoto(data_uri) {
 
         },
         success: function (data) {
-            console.log(data['number']);
+            window.location.href = '/step4';
         }
     });
 }
