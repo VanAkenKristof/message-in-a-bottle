@@ -28,7 +28,7 @@
           @foreach($photos as $photo)
 
           <div class="carousel-cell">
-              <img src="{{ "/storage/photobooth/" . $photo->name  . ".jpeg"}}">
+              <img src="{{ "/storage/photobooth/" . $photo->name  . ".jpg"}}">
               <p>{{ Carbon\Carbon::parse($photo->created_at)->format('d-m-Y h:m') }}u</p>
           </div>
 
