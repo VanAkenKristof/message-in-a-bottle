@@ -22,6 +22,7 @@
     {{--<img id="fotoLogo" src="/assets/Logo.svg">--}}
     {{--<img id="lookHere" src="/assets/Smile here.svg">--}}
 
+    <p id="countdown" style="position: absolute; color: #fff; font-size: 400px; left: 870px; top: -100px;">5</p>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="

@@ -10,7 +10,9 @@ class PhotoboothController extends Controller
 {
     public function step1()
     {
-        return view('photobooth.step1');
+        $photos = Photo::orderBy('id', 'desc')->take(5)->get();
+
+        return view('photobooth.step1', compact('photos'));
     }
 
     public function step2()

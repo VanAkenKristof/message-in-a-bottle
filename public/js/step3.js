@@ -1,12 +1,19 @@
 $('document').ready(function() {
     Webcam.attach( '#camera' );
 
-    $('#snapshot').click(function () {
-        // takeSnapshot();
+    let counter = 6;
+    let interval = setInterval(function() {
+        counter--;
 
-        savePhoto();
-        uploadPhoto();
-    });
+        $('#countdown').text(counter);
+        if (counter === 0) {
+            savePhoto();
+            uploadPhoto();
+        }
+    }, 1000);
+
+    uploadPhoto();
+
 });
 
 function savePhoto() {

@@ -24,26 +24,16 @@
     <div class="recentPhotos">
       <h3>Recent genomen foto's</h3>
       <div class="main-carousel" data-flickity='{ "autoPlay": true, "wrapAround": true, "setGallerySize": false, "selectedAttraction": 0.01, "friction": 0.20 }'>
-        <div class="carousel-cell">
-          <img src="/assets/Photo1.png">
-          <p>04/01/2019 - 10:38u</p>
-        </div>
-        <div class="carousel-cell">
-          <img src="/assets/Photo2.png">
-          <p>04/01/2019 - 10:38u</p>
-        </div>
-        <div class="carousel-cell">
-          <img src="/assets/Photo3.png">
-          <p>04/01/2019 - 10:38u</p>
-        </div>
-        <div class="carousel-cell">
-          <img src="/assets/Photo4.png">
-          <p>04/01/2019 - 10:38u</p>
-        </div>
-        <div class="carousel-cell">
-          <img src="/assets/Photo.png">
-          <p>04/01/2019 - 10:38u</p>
-        </div>
+
+          @foreach($photos as $photo)
+
+          <div class="carousel-cell">
+              <img src="{{ "/storage/photobooth/" . $photo->name  . ".jpeg"}}">
+              <p>{{ Carbon\Carbon::parse($photo->created_at)->format('d-m-Y h:m') }}u</p>
+          </div>
+
+          @endforeach
+
       </div>
     </div>
     <script type="text/javascript" src="/flickity/flickity-docs.min.js"></script>
