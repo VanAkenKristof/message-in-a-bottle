@@ -10,22 +10,22 @@ class PhotoboothController extends Controller
 {
     public function step1()
     {
-        return "Step 1";
+        return view('photobooth.step1');
     }
 
     public function step2()
     {
-
+        return view('photobooth.step2');
     }
 
     public function step3()
     {
-        return view('step3');
+        return view('photobooth.step3');
     }
 
     public function step4()
     {
-        return "done";
+        return view('photobooth.step4');
     }
 
     public function uploadPhoto()

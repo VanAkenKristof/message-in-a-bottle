@@ -5,15 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Message in a Bottle</title>
+        <title>Message in a bottle</title>
+
+        <style type="text/css">
+            html, body {
+                height: 100%;
+                margin: 0;
+                overflow: hidden;
+            }
+        </style>
 
     </head>
     <body>
 
-    <div id="camera" style="width:800px; height:600px;"></div>
-    <div id="image"></div>
-    <div id="thingy"></div>
-    <p id="snapshot">Take Snapshot</p>
+    <div id="camera" style="width:1920px; height:1080px;"></div>
+    {{--<img id="fotoLogo" src="/assets/Logo.svg">--}}
+    {{--<img id="lookHere" src="/assets/Smile here.svg">--}}
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"

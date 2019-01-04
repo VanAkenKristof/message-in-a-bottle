@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: houschka-rounded, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  z-index: 1;
+}
+
+body, html {
+  height: 100%;
+}
+
+/**********************************************************************************************
+************************************* B A C K G R O U N D *************************************
+**********************************************************************************************/
+body {
+  background-image: url("/assets/Background.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#water {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+#Logo {
+  position: absolute;
+  top: 67.5px;
+  left: 55px;
+  width: 533px;
+}
+
+.steps {
+  position: absolute;
+  top: 135px;
+  right: 58.5px;
+  width: 692px;
+
+  font-size: 40px;
+}
+
+.currentStep {
+  font-size: 50px;
+  color: #FFBD62;
+}
+
+.recentPhotos {
+  position: absolute;
+  bottom: 35px;
+}
+
+.recentPhotos h3{
+  font-size: 35px;
+  width: 100%;
+  text-align: center;
+}
+
+.main-carousel {
+  height: 450px;
+  width: 1500px;
+}
+
+.main-carousel:before {
+  pointer-events: none;
+  content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2e97ef+0,ffffff+50,7db9e8+100&1+0,0+50,1+100 */
+background: -moz-linear-gradient(left, rgba(46,151,239,1) 0%, rgba(255,255,255,0) 50%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(46,151,239,1) 0%,rgba(255,255,255,0) 50%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(46,151,239,1) 0%,rgba(255,255,255,0) 50%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e97ef', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+
+  /*background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0.02) 50%, rgba(255,255,255,0) 51%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,0.02) 50%,rgba(255,255,255,0) 51%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0.02) 50%,rgba(255,255,255,0) 51%,rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );*/
+
+
+	opacity: .7;
+  z-index: 2;
+}
+
+.main-carousel button {
+  z-index: 3;
+}
+
+.carousel-cell {
+  height: 450px;
+  width: 500px;
+  background: none;
+  background-color: #fff;
+}
+
+.carousel-cell img {
+  margin: 20px;
+  margin-bottom: 0;
+  height: 345px;
+  width: 460px;
+  background: none;
+}
+
+.carousel-cell p {
+  font-size: 30px;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.carousel-cell:before {
+  content: none;
+}
+
+.flickity-page-dots {
+  bottom: 10px;
+}
+
+.flickity-prev-next-button {
+  background-color: none;
+}
+
+.flickity-prev-next-button:hover {
+  background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+#proficiat {
+  position: absolute;
+  font-size: 70px;
+  width: 100%;
+  text-align: center;
+  bottom: 388.5px;
+}
+
+#proficiat img {
+  width: 155.5px;
+  height: 75px;
+  margin-bottom: -20px;
+}
+
+#tekenen {
+  position: absolute;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  bottom: 236px;
+}
+
+#akkoord {
+  position: absolute;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  bottom: 211.5px;
+}
+
+#ja, #nee {
+  position: absolute;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 15px 150.5px;
+  font-size: 50px;
+  color: #FFA223;
+  bottom: 75px;
+}
+
+#ja {
+  left: 300px;
+}
+
+#nee {
+  right: 300px;
+}
+
+
+
+
+
+#fotoLogo {
+  position: absolute;
+  width: 256.5px;
+  height: 157.5px;
+  bottom: 25px;
+  right: 110px;
+}
+
+#lookHere {
+  position: absolute;
+  width: 443.655px;
+  height: 91px;
+  top: 0px;
+  left: 313px;
+}
+
+#camera {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+#polaroid {
+  background-color: #fff;
+  width: 430px;
+  height: 386.85px;
+  position: absolute;
+  left: 535px;
+  bottom: 185.15px;
+}
+
+#polaroid img {
+  width: 395.38px;
+  height: 296.035;
+  margin: 17px;
+  margin-bottom: 10px;
+}
+
+#polaroid p {
+  font-size: 30px;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+#website {
+  font-size: 75px;
+  position: absolute;
+  bottom: 86px;
+  width: 100%;
+  text-align: center;
+}
+
+#done {
+  position: absolute;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 10px 100px;
+  font-size: 50px;
+  color: #FFA223;
+  bottom: 300px;
+  right: 50px;
+}
