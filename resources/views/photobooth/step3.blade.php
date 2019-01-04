@@ -29,6 +29,6 @@
             crossorigin="anonymous"></script>
 
     <script src="/js/webcam.js"></script>
-    <script src="/js/step3.js"></script>
+    <script src="/js/step3.js?v1"></script>
     </body>
 </html>

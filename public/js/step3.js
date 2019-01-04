@@ -7,12 +7,11 @@ $('document').ready(function() {
 
         $('#countdown').text(counter);
         if (counter === 0) {
-            savePhoto();
-            uploadPhoto();
+            // savePhoto();
+            // uploadPhoto();
+            window.location.href = '/step4';
         }
     }, 1000);
-
-    uploadPhoto();
 
 });
 
