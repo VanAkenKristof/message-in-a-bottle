@@ -17,7 +17,7 @@
   <p>4. Bekijk je foto op messageinabottle.be</p>
 </div>
 
-<h1 id="proficiat">Proficiat! u hebt een <img src="/assets/shape.svg"> gered</h1>
+<h1 id="proficiat">Proficiat! u hebt een <img src="/assets/fish.svg"> gered</h1>
 <h2 id="tekenen">Petitie ondertekenen?</h2>
 <p id="akkoord">Ik ga akkoord om een foto te nemen</p>
 <a id="ja" href="{{ route('photobooth.step3') }}">Ja</a>
