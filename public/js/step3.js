@@ -16,12 +16,10 @@ $('document').ready(function() {
 
 function savePhoto() {
     $.ajaxSetup({ cache: false });
-    $("#capture").click(function(){
         $.ajax({
             method: "GET",
             url: "http://192.168.56.1:5513/?CMD=Capture"
-        });
-        setTimeout(changePage, 7000);
+        //setTimeout(changePage, 7000);
     });
 }
 
