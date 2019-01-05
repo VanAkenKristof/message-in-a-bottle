@@ -19,7 +19,7 @@
 
 <div id="polaroid">
   <img src="{{ 'storage/photobooth/' . $photo->name . '.jpg' }}">
-  <p>{{ Carbon\Carbon::parse($photo->created_at)->format('d-m-Y H:m') }}u</p>
+  <p>{{ Carbon\Carbon::parse($photo->created_at)->format('d-m-Y H:i') }}u</p>
 </div>
 
 <h1 id="website">messageinabottle.be</h1>
