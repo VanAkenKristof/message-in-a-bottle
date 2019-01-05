@@ -19,7 +19,7 @@
     <body>
 
     <div id="camera" style="width:1920px; height:1080px;"></div>
-    {{--<img id="fotoLogo" src="/assets/Logo.svg">--}}
+    {{--<img id="fotoLogo" src="/assets/Logo-NoBorder.svg">--}}
     {{--<img id="lookHere" src="/assets/Smile here.svg">--}}
 
     <p id="countdown" style="position: absolute; color: #fff; font-size: 400px; left: 870px; top: -100px;">5</p>

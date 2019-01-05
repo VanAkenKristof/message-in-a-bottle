@@ -9,7 +9,7 @@
 <body>
 <img id="water" src="/assets/water-png-10.png">
 
-<img id="Logo" src="/assets/Logo White.svg" alt="Message in a bottle - Logo">
+<img id="Logo" src="/assets/Logo-NoBorder.svg" alt="Message in a bottle - Logo">
 <div class="steps">
   <p>1. Steek uw fles in de box</p>
   <p class="currentStep">2. Bekijk je bijdrage</p>

@@ -11,7 +11,7 @@
     <img id="water" src="/assets/water-png-10.png">
 
     <a href="{{ route('photobooth.step2') }}">
-      <img id="Logo" src="/assets/Logo White.svg" alt="Message in a bottle - Logo">
+      <img id="Logo" src="/assets/Logo-NoBorder.svg" alt="Message in a bottle - Logo">
     </a>
 
     <div class="steps">
