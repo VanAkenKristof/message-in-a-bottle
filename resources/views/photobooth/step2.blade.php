@@ -11,7 +11,7 @@
 
 <img id="Logo" src="/assets/Logo-NoBorder.svg" alt="Message in a bottle - Logo">
 <div class="steps">
-  <p>1. Steek uw fles in de box</p>
+  <p>1. Deponeer uw fles in de box</p>
   <p class="currentStep">2. Bekijk je bijdrage</p>
   <p>3. Neem een foto</p>
   <p>4. Bekijk je foto op messageinabottle.be</p>

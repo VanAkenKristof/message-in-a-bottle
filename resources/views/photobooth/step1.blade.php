@@ -17,7 +17,7 @@
     <img id="clickHere" src="assets/arrow-right-narrow.svg">
 
     <div class="steps">
-      <p class="currentStep">1. Steek uw fles in de box en klik hier</p>
+      <p class="currentStep">1. Deponeer uw fles in de box en klik hier</p>
       <p>2. Bekijk je bijdrage</p>
       <p>3. Neem een foto</p>
       <p>4. Bekijk je foto op messageinabottle.be</p>
