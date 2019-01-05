@@ -38,7 +38,7 @@ class PhotoboothController extends Controller
         $path = storage_path('photobooth-local/' . $localFileName);
         $localFile = \File::get($path);
         Storage::disk('custom-ftp')->put('/subsites/message-in-a-bottle-photobooth.kristof.vanaken.mtantwerp.eu/public/storage/photobooth/' . $filename . '.jpg', $localFile);
-        Storage::disk('local')->put( storage_path('photobooth-local/') . $filename . '.jpg', $localFile);
+        Storage::disk('local')->put( public_path('/storage/photobooth/') . $filename . '.jpg', $localFile);
 
         $photo = new Photo();
         $photo->name = $filename;
