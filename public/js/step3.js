@@ -1,15 +1,14 @@
 $('document').ready(function() {
     Webcam.attach( '#camera' );
 
-    let counter = 6;
+    let counter = 9;
     let interval = setInterval(function() {
         counter--;
 
         $('#countdown').text(counter);
         if (counter === 0) {
             // savePhoto();
-            // uploadPhoto();
-            window.location.href = '/step4';
+            uploadPhoto();
         }
     }, 1000);
 
