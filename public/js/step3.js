@@ -7,7 +7,7 @@ $('document').ready(function() {
 
         $('#countdown').text(counter);
         if (counter === 0) {
-            // savePhoto();
+            savePhoto();
             uploadPhoto();
         }
     }, 1000);
@@ -19,7 +19,7 @@ function savePhoto() {
     $("#capture").click(function(){
         $.ajax({
             method: "GET",
-            url: "http://192.168.0.250:5513/?CMD=Capture"
+            url: "http://192.168.56.1:5513/?CMD=Capture"
         });
         setTimeout(changePage, 7000);
     });
@@ -43,5 +43,3 @@ function uploadPhoto() {
         }
     });
 }
-
-
