@@ -18,8 +18,8 @@
 </div>
 
 <div id="polaroid">
-  <img src="/assets/Foto.png">
-  <p>04/01/2019 - 15:20u</p>
+  <img src="{{ 'storage/photobooth/' . $photo->name . '.jpg' }}">
+  <p>{{ Carbon\Carbon::parse($photo->created_at)->format('d-m-Y H:m') }}u</p>
 </div>
 
 <h1 id="website">messageinabottle.be</h1>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Photo;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 
 class PhotoboothController extends Controller
@@ -27,7 +28,8 @@ class PhotoboothController extends Controller
 
     public function step4()
     {
-        return view('photobooth.step4');
+        $photo = DB::table('photos')->orderBy('created_at', 'desc')->first();
+        return view('photobooth.step4', compact('photo'));
     }
 
     public function uploadPhoto()
