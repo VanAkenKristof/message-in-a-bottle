@@ -3,12 +3,11 @@ $('document').ready(function () {
 
     let counter = 5;
     let interval = setInterval(function () {
-        if (counter !== 0) {
-            counter--;
-        }
+        counter--;
 
         $('#countdown').text(counter);
         if (counter === 0) {
+            clearInterval(interval);
             savePhoto();
             uploadPhoto();
         }
