@@ -36,16 +36,32 @@ body {
 #Logo {
   position: absolute;
   top: 67.5px;
-  left: 55px;
+  right: 67.5px;
   width: 200px;
+}
+
+#clickHere {
+  position: absolute;
+  top: 73.5px;
+  right: 500px;
+  width: 77px;
+
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+  0%   {right:500px}
+  50%  {right:490px}
+  100%  {right:500px}
 }
 
 .steps {
   position: absolute;
-  top: 135px;
-  right: 58.5px;
-  width: 692px;
-
+  top: 67.5px;
+  left: 67.5px;
+  width: 929px;
   font-size: 40px;
 }
 
@@ -268,5 +284,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e97ef', end
   font-size: 50px;
   color: #FFA223;
   bottom: 300px;
-  right: 50px;
+  right: 100px;
 }

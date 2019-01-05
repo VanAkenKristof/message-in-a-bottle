@@ -23,6 +23,6 @@
 </div>
 
 <h1 id="website">messageinabottle.be</h1>
-<a id="done" href="{{ route('photobooth.step1') }}">Done</a>
+<a id="done" href="{{ route('photobooth.step1') }}">Klaar</a>
 </body>
 </html>

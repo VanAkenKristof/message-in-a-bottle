@@ -1,0 +1,6 @@
+<svg id="arrow-right-narrow" xmlns="http://www.w3.org/2000/svg" width="154" height="120" viewBox="0 0 154 120">
+  <rect id="arrow-right-narrow_background" data-name="arrow-right-narrow background" width="154" height="120" fill="rgba(0,0,0,0)"/>
+  <g id="arrow-right-c" transform="translate(0 0.011)">
+    <path id="Shape" d="M106.181,4.106l43.881,45.985A13.347,13.347,0,0,1,154,59.9a13.417,13.417,0,0,1-3.937,9.81l-43.881,46.161a12.928,12.928,0,0,1-18.9,0,14.5,14.5,0,0,1,0-19.8L108.369,74H13.431C5.994,74,0,67.741,0,59.989S5.994,45.974,13.387,45.974h94.938L87.237,23.9a14.5,14.5,0,0,1,0-19.8,12.978,12.978,0,0,1,18.944,0Z" fill="#ffbd62"/>
+  </g>
+</svg>
