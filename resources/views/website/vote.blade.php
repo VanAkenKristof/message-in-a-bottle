@@ -40,10 +40,7 @@
         <img src="/assets/Previous.svg">
         <p>Over</p>
       </a>
-      <footer>
-        <img src="/assets/Copyright.svg" alt="Copyrighted">
-        <p>Message in a Bottle - <a href="#">bezoek ons op Facebook</a></p>
-      </footer>
+      @include('website._footer')
     </div>
   </body>
 </html>
