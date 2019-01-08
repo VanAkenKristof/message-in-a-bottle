@@ -10,10 +10,6 @@
     <div id="aboutBackground" class="background overlay">
       <div id="top">
         <p>About</p>
-        <form action="search.blade.php" method="get">
-          <input type="text" name="qry" placeholder="Zoek uw foto">
-          <input type="submit" value="">
-        </form>
       </div>
       <div class="aboutTxt">
         <p>Bedankt om deel te nemen en de petitie te ondertekenen!</p><br>

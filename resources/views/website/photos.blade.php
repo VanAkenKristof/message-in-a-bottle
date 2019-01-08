@@ -10,10 +10,6 @@
     <div id="photosBackground" class="background overlay">
       <div id="top">
         <p>Helden</p>
-        <form action="search.blade.php" method="get">
-          <input type="text" name="qry" placeholder="Zoek uw foto">
-          <input type="submit" value="">
-        </form>
       </div>
 
       <div class="voteCount">

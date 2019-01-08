@@ -10,10 +10,6 @@
     <div id="homeBackground" class="background overlay20">
       <div id="top">
         <p>Home</p>
-        <form action="search.blade.php" method="get">
-          <input type="text" name="qry" placeholder="Zoek uw foto">
-          <input type="submit" value="">
-        </form>
       </div>
 
       <h1>Message in a Bottle</h1>
