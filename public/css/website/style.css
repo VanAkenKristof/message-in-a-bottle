@@ -35,31 +35,31 @@ body, html {
 ************************************* B A C K G R O U N D *************************************
 **********************************************************************************************/
 #homeBackground {
-  background-image: url("/../../assets/pexels-water.png");
+  background-image: url("/assets/pexels-water.png");
 }
 
 #aboutBackground {
-  background-image: url("/../../assets/pexels-bottle.png");
+  background-image: url("/assets/pexels-bottle.png");
 }
 
 #personalisedBackground {
-  background-image: url("/../../assets/pexels-caps.png");
+  background-image: url("/assets/pexels-caps.png");
 }
 
 #photosBackground {
-  background-image: url("/../../assets/pexels-row.png");
+  background-image: url("/assets/pexels-row.png");
 }
 
 #searchBackground {
-  background-image: url("/../../assets/pexels-caps.png");
+  background-image: url("/assets/pexels-caps.png");
 }
 
 #voteBackground {
-  background-image: url("/../../assets/pexels-row.png");
+  background-image: url("/assets/pexels-row.png");
 }
 
 #votedBackground {
-  background-image: url("/../../assets/pexels-row.png");
+  background-image: url("/assets/pexels-row.png");
 }
 
 .background {
@@ -113,7 +113,7 @@ body, html {
   height: 20px;
   border: none;
   background-color: rgba(0,0,0,0);
-  background-image: url("/../../assets/Shape.svg");
+  background-image: url("/assets/Shape.svg");
 }
 
 
@@ -393,4 +393,75 @@ footer a {
 #vote img {
   margin-bottom: -8px;
   margin-right: 16px;
+}
+
+
+.smallPolaroid {
+  width: 20%;
+  height: 30%;
+  background-color: #fff;
+  margin: 0% 3%;
+}
+
+.smallPolaroid img {
+  width: 90%;
+  height: 75%;
+  margin: 5%;
+  margin-bottom: 3%;
+}
+
+.smallPolaroid p {
+  width: 100%;
+  font-size: 20px;
+  margin-top: -4%;
+  text-align: center;
+  color: #000;
+  font-weight: 300;
+}
+
+#photoList {
+  width: 80%;
+  margin: 7% 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+
+
+.smallPolaroid4 {
+  width: 20%;
+  height: 30%;
+  background-color: #fff;
+  margin: 0% 1%;
+}
+
+.smallPolaroid4 img {
+  width: 90%;
+  height: 75%;
+  margin: 5%;
+  margin-bottom: 3%;
+}
+
+.smallPolaroid4 p {
+  width: 100%;
+  font-size: 20px;
+  margin-top: -4%;
+  text-align: center;
+  color: #000;
+  font-weight: 300;
+}
+
+#photoList4 {
+  width: 80%;
+  margin: 7% 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#links {
+
 }

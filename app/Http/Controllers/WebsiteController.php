@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Photo;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class WebsiteController extends Controller
 {
@@ -32,7 +34,9 @@ class WebsiteController extends Controller
 
     public function photos()
     {
-        return view('website.photos');
+        $photos = DB::table('photos')->paginate(9);
+
+        return view('website.photos', compact('photos'));
     }
 
     public function search()
