@@ -34,7 +34,7 @@ class WebsiteController extends Controller
 
     public function photos()
     {
-        $photos = DB::table('photos')->paginate(9);
+        $photos = DB::table('photos')->orderBy('created_at', 'desc')->paginate(9);
 
         return view('website.photos', compact('photos'));
     }
