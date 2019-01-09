@@ -13,9 +13,19 @@
         <a href="/home"><img src="/assets/Logo-NoBorder.svg" alt="Message in a bottle Logo"></a>
       </div>
       <div class="aboutTxt">
-        <p>Bedankt om deel te nemen en de petitie te ondertekenen!</p><br>
-        <p>Hier kan je stemmen op jouw favoriete foto en misschien win je zelf wel!</p><br>
-        <p>Laten we samen de waterorganismen helpen met hun verder bestaan.</p>
+        <p>Message in a bottle is een project gemaakt door vier studenten Multimedia Technology.</p><br>
+        <p>Met dit project willen we met een promoteam mensen bewustmaken, dat plastic beter gerecycleerd moet worden. Dit doen we door een petitie te starten die ondertekend wordt met foto’s. Hiervoor hebben we een photobooth gecreëerd, waarin mensen een leeg plastiek flesje kunnen weggooien en de petitie kunnen ondertekenen door een foto in te zenden.</p><br>
+        <p>Op deze manier willen we mensen op een fijne manier aanspreken, in plaats van een lastige petitie te maken waarbij je je mailadres en naam telkens moet invullen. Want laat ons eerlijk zijn, who doesn’t love to take a picture?</p><br>
+        <p>Dus</p>
+        <ul>
+          <ol>1.	Vind één van onze photobooths</ol>
+          <ol>2.	Gooi een leeg plastieken flesje in de doos</ol>
+          <ol>3.	Onderteken de petitie</ol>
+          <ol>4.	Keep the oceaan clean!</ol>
+          <ol>5.	Thank you so much!</ol>
+        </ul><br>
+        <p>Ons team bedankt jullie voor jullie inzet!</p><br>
+        <p>Indy, Ian, Kristof en Vincent</p>
       </div>
 
       <a id="nextPage" href="{{ route('website.photos') }}">
