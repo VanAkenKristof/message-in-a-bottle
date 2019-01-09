@@ -10,6 +10,7 @@
     <div id="aboutBackground" class="background overlay">
       <div id="top">
         <p>About</p>
+        <a href="/home"><img src="/assets/Logo-NoBorder.svg" alt="Message in a bottle Logo"></a>
       </div>
       <div class="aboutTxt">
         <p>Bedankt om deel te nemen en de petitie te ondertekenen!</p><br>

@@ -10,6 +10,7 @@
 <div id="photosBackground" class="background overlay">
     <div id="top">
         <p>Helden</p>
+        <a href="/home"><img src="/assets/Logo-NoBorder.svg" alt="Message in a bottle Logo"></a>
     </div>
 
     <div id="photoList">
@@ -19,12 +20,13 @@
                 <p>{{ Carbon\Carbon::parse($photo->created_at)->format('d-m-Y H:i') }}u</p>
             </div>
         @endforeach
-            <div id="links">
-                {{ $photos->links() }}
-            </div>
     </div>
 
-    <a id="prevPage" href="about.html">
+    <div id="links">
+        {{ $photos->links() }}
+    </div>
+
+    <a id="prevPage" href="/about">
         <img src="/assets/Previous.svg">
         <p>Over</p>
     </a>

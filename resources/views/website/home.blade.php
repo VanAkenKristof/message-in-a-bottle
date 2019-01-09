@@ -10,6 +10,7 @@
     <div id="homeBackground" class="background overlay20">
       <div id="top">
         <p>Home</p>
+        <a href="#"><img src="/assets/Logo-NoBorder.svg" alt="Message in a bottle Logo"></a>
       </div>
 
       <h1>Message in a Bottle</h1>
