@@ -48,8 +48,8 @@ body, html {
 
 .background {
   position: fixed;
-  height: 100%;
   width: 100%;
+  height: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -163,13 +163,30 @@ footer a {
 /**********************************************************************************************
 ****************************************** A B O U T ******************************************
 **********************************************************************************************/
+#about .social{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+}
+
+#about .social a {
+  text-decoration: none;
+}
+
+#about .social img {
+  height: 100%;
+  width: 110px;
+}
+
 #about .aboutTxt {
   position: absolute;
   font-size: 40px;
   top: 15%;
   width: 60%;
   margin: 0 20%;
-  margin-bottom: 20%;
+  margin-bottom: 30%;
 }
 
 #about .aboutTxt ol {
@@ -254,6 +271,7 @@ footer a {
   /* For desktop: */
   .background {
     position: relative;
+    width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -308,8 +326,15 @@ footer a {
     top: 52%;
   }
   /**** A B O U T ****/
+  #about .social{
+    height: 40px;
+  }
+  #about .social img {
+    width: 80px;
+  }
   #about .aboutTxt {
     font-size: 15px;
+    margin-bottom: 0;
   }
   /**** P H O T O S ****/
   .smallPolaroid {
@@ -353,6 +378,7 @@ footer a {
   .background {
     position: relative;
     height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -406,8 +432,15 @@ footer a {
     top: 52%;
   }
   /**** A B O U T ****/
+  #about .social{
+    height: 40px;
+  }
+  #about .social img {
+    width: 80px;
+  }
   #about .aboutTxt {
     font-size: 13px;
+    margin-bottom: 0;
   }
   /**** P H O T O S ****/
   .smallPolaroid {

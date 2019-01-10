@@ -26,7 +26,18 @@
           <ol>5.	Thank you so much!</ol>
         </ul><br>
         <p>Ons team bedankt jullie voor jullie inzet!</p><br>
-        <p>Indy, Ian, Kristof en Vincent</p>
+        <p>Indy, Ian, Kristof en Vincent</p><br>
+        <div class="social">
+          <a href="https://www.facebook.com/Message-in-a-bottle-911102819093545/">
+            <img src="/assets/social-facebook-outline.svg" alt="Message in a bottle on Facebook">
+          </a>
+          <a href="https://twitter.com/MIAB_Belgium/">
+            <img src="/assets/social-twitter-outline.svg" alt="Message in a bottle on Twitter">
+          </a>
+          <a href="https://www.instagram.com/messageinabottlebe/">
+            <img src="/assets/social-instagram-outline.svg" alt="Message in a bottle on Instagram">
+          </a>
+        </div>
       </div>
 
       <a id="nextPage" href="{{ route('website.photos') }}">
