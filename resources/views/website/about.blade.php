@@ -7,7 +7,8 @@
     <title>Message in a bottle</title>
   </head>
   <body>
-    <div id="aboutBackground" class="background overlay">
+    <div id="aboutBackground" class="background overlay"></div>
+    <div id="about">
       <div id="top">
         <p>About</p>
         <a href="/home"><img src="/assets/Logo-NoBorder.svg" alt="Message in a bottle Logo"></a>
