@@ -245,102 +245,7 @@ footer a {
 
 
 
-@media (min-width : 768px) and (max-width : 1024px) {
-  /* For tablets: */
-  .background {
-    position: relative;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-wrap:wrap;
-  }
-  #top {
-    font-size: 30px;
-  }
-  #top img {
-    height: 100px;
-  }
-  /**** P A G I N G ****/
-  #nextPage, #prevPage {
-    width: 90px;
-    top: 45%;
-  }
-  #nextPage img, #prevPage img {
-    width: 60px;
-  }
-  #nextPage p, #prevPage p {
-    font-size: 30px;
-  }
-  /**** F O O T E R ****/
-  footer {
-    background-color: none;
-    height: 0px;
-    bottom: 0;
-    width: 100%;
-    padding: 0;
-  }
-  footer img {
-    height: 25px;
-    position: absolute;
-    bottom: 32px;
-    left: 50px;
-  }
-  footer p {
-    position: absolute;
-    bottom: 28px;
-    left: 81px;
-    font-size: 20px;
-  }
-  /**** H O M E ****/
-  #home h1 {
-    font-size: 80px;
-    top: 38%;
-  }
-  #home h3 {
-    font-size: 40px;
-    top: 52%;
-  }
-  /**** A B O U T ****/
-  #about .aboutTxt {
-    font-size: 17px;
-  }
-  /**** P H O T O S ****/
-  .smallPolaroid {
-    margin: 5px 3%;
-    width: 20%;
-  }
-  .smallPolaroid p {
-    font-size: 90%;
-    margin-top: -4%;
-  }
-  #photoList {
-    top: 10%;
-    padding: 0;
-    width: 80%;
-    height: auto;
-    margin: 0 10%;
-  }
-  #links {
-    position: absolute;
-    bottom: 10%;
-    background-color: inherit;
-  }
-  #links ul {
-    margin: 0;
-  }
-  #links li {
-    font-size: 20px;
-    margin: 0 20px;
-  }
-  #links span {
-    font-weight: bold;
-  }
-  #links a {
-    text-decoration: none;
-  }
-}
+
 
 
 
@@ -410,6 +315,104 @@ footer a {
   .smallPolaroid {
     width: 20%;
     margin: 5px 3%;
+  }
+  .smallPolaroid p {
+    font-size: 90%;
+    margin-top: -4%;
+  }
+  #photoList {
+    top: 10%;
+    padding: 0;
+    width: 80%;
+    height: auto;
+    margin: 0 10%;
+  }
+  #links {
+    position: absolute;
+    bottom: 10%;
+    background-color: inherit;
+  }
+  #links ul {
+    margin: 0;
+  }
+  #links li {
+    font-size: 20px;
+    margin: 0 20px;
+  }
+  #links span {
+    font-weight: bold;
+  }
+  #links a {
+    text-decoration: none;
+  }
+}
+
+
+@media (min-width : 768px) and (max-width : 1024px) and (orientation: landscape) {
+  /* For tablets: */
+  .background {
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap:wrap;
+  }
+  #top {
+    font-size: 30px;
+  }
+  #top img {
+    height: 100px;
+  }
+  /**** P A G I N G ****/
+  #nextPage, #prevPage {
+    width: 90px;
+    top: 45%;
+  }
+  #nextPage img, #prevPage img {
+    width: 60px;
+  }
+  #nextPage p, #prevPage p {
+    font-size: 30px;
+  }
+  /**** F O O T E R ****/
+  footer {
+    background-color: none;
+    height: 0px;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+  }
+  footer img {
+    height: 25px;
+    position: absolute;
+    bottom: 32px;
+    left: 50px;
+  }
+  footer p {
+    position: absolute;
+    bottom: 28px;
+    left: 81px;
+    font-size: 20px;
+  }
+  /**** H O M E ****/
+  #home h1 {
+    font-size: 80px;
+    top: 38%;
+  }
+  #home h3 {
+    font-size: 40px;
+    top: 52%;
+  }
+  /**** A B O U T ****/
+  #about .aboutTxt {
+    font-size: 13px;
+  }
+  /**** P H O T O S ****/
+  .smallPolaroid {
+    margin: 5px 3%;
+    width: 20%;
   }
   .smallPolaroid p {
     font-size: 90%;
