@@ -12,7 +12,7 @@ $('document').ready(function () {
         document.getElementById('countd').src="/assets/" + number + " Countdown.svg";
         if (counter === (-1)) {
             clearInterval(interval);
-            //savePhoto();
+            savePhoto();
             uploadPhoto();
         }
     }, 1000);
@@ -28,11 +28,11 @@ function savePhoto() {
 
 function uploadPhoto() {
     $.ajax({
-        //type: 'POST',
-        //url: '/upload-photo',
-        //headers: {
-            //'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
-        //},
+        type: 'POST',
+        url: '/upload-photo',
+        headers: {
+            'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
+        },
         beforeSend: function () {
 
         },
