@@ -35,7 +35,7 @@ class PhotoboothController extends Controller
     public function uploadPhoto()
     {
         $filename = $this->getNextNumberFilename();
-        $localFileName = collect(scandir(storage_path('photobooth-local')))->sort()->last();
+        $localFileName = collect(scandir(public_path('storage/photobooth')))->sort()->last();
 
         $path = public_path('storage/photobooth/' . $localFileName);
         $localFile = \File::get($path);
