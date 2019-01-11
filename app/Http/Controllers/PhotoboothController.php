@@ -52,6 +52,6 @@ class PhotoboothController extends Controller
     {
         $lastFileName = collect(scandir(public_path('storage/photobooth')))->sort()->last();
         $lastFileName = (int)explode('.', $lastFileName)[0];
-        return str_pad($lastFileName+1, 3, '0', STR_PAD_LEFT);
+        return str_pad($lastFileName, 3, '0', STR_PAD_LEFT);
     }
 }
