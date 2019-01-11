@@ -3,12 +3,16 @@ $('document').ready(function () {
 
     let counter = 5;
     let interval = setInterval(function () {
+      let number = counter;
+        if (counter === 5 || counter === 4) {
+          number = 3;
+        }
         counter--;
-
-        $('#countdown').text(counter);
-        if (counter === 0) {
+        //$('#countd').src("/assets/" + toString(counter) + " Countdown.svg");
+        document.getElementById('countd').src="/assets/" + number + " Countdown.svg";
+        if (counter === (-1)) {
             clearInterval(interval);
-            savePhoto();
+            //savePhoto();
             uploadPhoto();
         }
     }, 1000);
@@ -24,11 +28,11 @@ function savePhoto() {
 
 function uploadPhoto() {
     $.ajax({
-        type: 'POST',
-        url: '/upload-photo',
-        headers: {
-            'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
-        },
+        //type: 'POST',
+        //url: '/upload-photo',
+        //headers: {
+            //'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
+        //},
         beforeSend: function () {
 
         },
